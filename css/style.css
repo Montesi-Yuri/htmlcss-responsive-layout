@@ -15,9 +15,98 @@
 **************************/
 
 .container{
-    max-width: 1140px;
+    max-width: 768px;
     margin: 0 auto;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/**************************
+    HEADER
+**************************/
+
+header{
+    background-color: #0084FD;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header .row{
+    justify-content: space-between;
+}
+
+.links-row{
+    display: none;
+}
+
+
+
+
+
+
+
+/**************************
+    MAIN
+**************************/
+
+
+
+
+
+
+
+
+
+
+
+/**************************
+    RESPONSIVE
+**************************/
+
+/*  TABLET DA 768PX   */
+
+@media screen and (min-width: 768px) {
+
+    
+    
+}
+
+
+/*  DESKTOP DA 992PX   */
+
+@media screen and (min-width: 992px) {
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -27,5 +116,7 @@
     DEBUG
 **************************/
 
-
+/* .debug header{
+    height: 80px;
+} */
 
