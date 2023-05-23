@@ -9,7 +9,6 @@
 }
 
 
-
 /**************************
     GENERAL
 **************************/
@@ -36,13 +35,13 @@ a{
 }
 
 .col{
-    width:calc(100% - 20px);
-    margin: 10px 10px;
+    width: 100% ;
+    margin: 10px 0px;
 }
 
 section{
     margin: 20px 0;
-    padding: 10px 0px;
+    padding: 10px 20px;
 }
 
 
@@ -56,7 +55,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 5px 10px;
+    padding: 5px 20px;
 }
 
 header .row{
@@ -66,11 +65,6 @@ header .row{
 .links-row{
     display: none;
 }
-
-
-
-
-
 
 
 /**************************
@@ -103,6 +97,7 @@ header .row{
     padding: 10px 10px;
     text-align: center;
 }
+
 
 /* TESTIMONIAL SECTION */
 
@@ -142,6 +137,27 @@ header .row{
 }
 
 
+/**************************
+    FOOTER
+**************************/
+
+/* FOOTER TOP */
+
+footer div{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.footer-top{
+    background-color: #9792E4;
+}
+
+
+/* FOOTER BOTTOM */
+
+.footer-bottom{
+    background-color: #333333;
+}
 
 
 
@@ -155,8 +171,38 @@ header .row{
 
 @media screen and (min-width: 768px) {
 
+    .container{
+        max-width: 992px;
+    }
+
+    .icon-section .container > .row{
+        justify-content: space-between;
+    }
+
+    .icon-section .row .col{
+        width: calc((100% / 3) - 20px);
+    }
+
+    .icon-section .row .big-col{
+        width: calc((100% / 3) * 2 - 10px);
+    }
+
+    .benefits-section .row .col{
+        width: calc((100% / 2) - 20px);
+    }
+
+    .benefits-section .container > .row{
+        justify-content: space-between;
+    }
     
-    
+    .about-us-section .col:first-child{
+        width: 60%;
+    }
+
+    .about-us-section .col{
+        width: 40%;
+    }
+
 }
 
 
@@ -164,8 +210,30 @@ header .row{
 
 @media screen and (min-width: 992px) {
 
+    .icon-section .row .big-col{
+        flex-wrap: wrap;
+    }
+
+    .col .left{
+        width: 100%;
+    }
+
+    .planning-section .col{
+        width: 50%;
+        align-items: flex-end;
+    }
     
-    
+    .benefits-section .row .col{
+        width: calc((100% / 3) - 20px);
+    }
+
+    .about-us-section .col:first-child{
+        width: 70%;
+    }
+
+    .about-us-section .col{
+        width: 30%;
+    }
 }
 
 
