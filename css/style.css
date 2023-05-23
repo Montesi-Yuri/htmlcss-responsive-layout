@@ -106,7 +106,15 @@ header .row{
 
 /* TESTIMONIAL SECTION */
 
-.testimonial-section
+.testimonial-section{
+    text-align: center;
+}
+
+.testimonial-section .col:not(:first-child){
+    color: white;
+    background-color: #9792E4;
+    border-radius: 1em;
+}
 
 
 
