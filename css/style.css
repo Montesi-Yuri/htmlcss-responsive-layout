@@ -35,6 +35,16 @@ a{
     text-decoration: none;
 }
 
+.col{
+    width:calc(100% - 20px);
+    margin: 10px 10px;
+}
+
+section{
+    margin: 20px 0;
+    padding: 10px 0px;
+}
+
 
 /**************************
     HEADER
@@ -45,6 +55,8 @@ header{
     position: sticky;
     top: 0;
     left: 0;
+    width: 100%;
+    padding: 5px 10px;
 }
 
 header .row{
@@ -64,6 +76,37 @@ header .row{
 /**************************
     MAIN
 **************************/
+
+/* ICON SECTION */
+
+.icon-section .row{
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.icon-section .col{
+    background-color: #B5DDFF;
+}
+
+
+/* PLANNING SECTION */
+
+.planning-section{
+    background-color: #BCB5EE;
+
+}
+
+#special-card{
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 1em;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+/* TESTIMONIAL SECTION */
+
+.testimonial-section
 
 
 
