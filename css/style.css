@@ -117,8 +117,29 @@ header .row{
 }
 
 
+/* BENEFITS SECTION */
 
+.benefits-section{
+    background-color: #9792E4;
+}
 
+.benefits-section .row{
+    flex-wrap: wrap;
+}
+
+.benefits-section .col{
+    background-color: white;
+    color: #9792E4;
+    width: calc((100%)- 20px);
+    padding: 10px 10px;
+    border-radius: 1em;
+}
+
+/* ABOUT US SECTION */
+
+.about-us-section{
+    
+}
 
 
 
