@@ -78,8 +78,6 @@ img{
 }
 
 
-
-
 /**************************
     HEADER
 **************************/
@@ -174,8 +172,6 @@ header a{
 }
 
 
-
-
 /* PLANNING SECTION */
 
 .planning-section{
@@ -261,7 +257,6 @@ header a{
     justify-content: center;
 }
 
-
 .testimonial-section .col:not(:first-child){
     color: white;
     background-color: #9792E4;
@@ -329,6 +324,7 @@ header a{
 .benefits-section p{
     margin-bottom: 30px;
     margin-top: 20px;
+    color: black;
 }
 
 .benefits-section .purple-button{
@@ -397,9 +393,15 @@ section.about-us-section .col.about-us-text-content{
     width: 100%;
 }
 
+
 /**************************
     FOOTER
 **************************/
+
+footer .container{
+    max-width: 500px;
+    margin: 0 auto;
+}
 
 /* FOOTER TOP */
 
@@ -431,6 +433,7 @@ footer div{
 .footer-top p{
     line-height: 2em;
     color: white;
+    padding: 0px 20px;
 }
 
 .footer-top *{
@@ -451,7 +454,9 @@ footer div{
    color: white;
 }
 
-
+.footer-top p:not(:first-of-type){
+    font-size: 0.75em;
+ }
 
 
 /* FOOTER BOTTOM */
@@ -460,8 +465,16 @@ footer div{
     background-color: #333333;
 }
 
+.footer-bottom p{
+    color: white;
+    font-size: 0.75em;
+    padding: 20px 0px;
+}
 
-
+.footer-bottom a{
+    color: #9792E4;
+    text-decoration: underline;
+}
 
 
 /**************************
@@ -634,30 +647,3 @@ footer div{
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**************************
-    DEBUG
-**************************/
-
-/* .debug header{
-    height: 80px;
-} */
-
