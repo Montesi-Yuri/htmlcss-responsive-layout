@@ -412,6 +412,47 @@ footer div{
     background-color: #9792E4;
 }
 
+.footer-top h4{
+    color: #D5D4F4;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.footer-top h3{
+    color: white;
+    font-size: 2em;
+}
+
+.footer-top h2{
+    color: #FDC15F;
+    font-size: 4em;
+}
+
+.footer-top p{
+    line-height: 2em;
+    color: white;
+}
+
+.footer-top *{
+    margin: 20px 0px;
+}
+
+.footer-top .white-button{
+    color: #9792E4;
+    padding: 20px 60px;
+    border-radius: 3em;
+    font-weight: 600;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.footer-top p a{
+   text-decoration: underline;
+   color: white;
+}
+
+
+
 
 /* FOOTER BOTTOM */
 
