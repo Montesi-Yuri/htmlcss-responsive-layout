@@ -44,6 +44,39 @@ section{
     padding: 10px 20px;
 }
 
+img{
+    width: 100%;
+}
+
+.button{
+    border-radius: 1em;
+}
+
+.white-button{
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+    padding: 6px 12px;
+}
+
+.blue-button{
+    background-color: #0084FD;
+    border-radius: 1em;
+    padding: 6px 12px;
+}
+
+.purple-button{
+    background-color: #9792E4;
+    border-radius: 1em;
+    padding: 6px 12px;
+}
+
+.round-button{
+    border-radius: 50%;
+}
+
+
+
 
 /**************************
     HEADER
@@ -55,15 +88,30 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 5px 20px;
+    padding: 15px 20px;
+    color: white;
 }
 
 header .row{
     justify-content: space-between;
+    align-items: center;
 }
 
 .links-row{
     display: none;
+}
+
+header a{
+    color: white;
+    margin: 0 15px;
+}
+
+header .logo{
+
+}
+
+.hamburger-menu a{
+    color: white;
 }
 
 
@@ -233,6 +281,14 @@ footer div{
 
     .about-us-section .col{
         width: 30%;
+    }
+    
+    .links-row{
+        display: flex;
+    }
+
+    .hamburger-menu{
+        display: none;
     }
 }
 
