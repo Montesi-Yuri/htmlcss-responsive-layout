@@ -69,7 +69,7 @@ img{
 
 .purple-button{
     background-color: #9792E4;
-    border-radius: 1em;
+    border-radius: 1.5em;
     padding: 6px 12px;
 }
 
@@ -92,7 +92,7 @@ header{
     width: 100%;
     padding: 15px 0px;
     color: white;
-    z-index: 1;
+    z-index: 2;
 }
 
 header .row{
@@ -296,6 +296,7 @@ header a{
 
 .benefits-section{
     background-color: #9792E4;
+    padding-bottom: 40px;
 }
 
 .benefits-section .row{
@@ -306,16 +307,95 @@ header a{
     background-color: white;
     color: #9792E4;
     width: calc((100%)- 20px);
-    padding: 10px 10px;
+    padding: 30px 20px;
     border-radius: 1em;
 }
 
-/* ABOUT US SECTION */
-
-.about-us-section {
-
+.benefits-section h2{
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 2.2em;
 }
 
+.benefits-section h3{
+    font-size: 3em;
+}
+
+.benefits-section h4{
+    margin: 20px 0;
+}
+
+.benefits-section p{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.benefits-section .purple-button{
+    padding: 8px 48px;
+    color: white;
+}
+
+
+/* ABOUT US SECTION */
+
+.about-us-section h2{
+    font-size: 3em;
+    color: #9792E4;
+}
+
+.about-us-section p{
+    line-height: 2em;
+    font-weight: 500;
+}
+
+.about-us-section .row{
+   flex-wrap: wrap;
+}
+
+.about-us-section .col:first-child *{
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.about-us-section img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about-us-section .col:last-child{
+    padding: 0 40px;
+}
+
+.about-us-section .col:last-child h4{
+    padding: 25px 0px;
+    color: #9792E4;
+    font-size: 1.25em;
+}
+
+.about-us-section .image-container{
+    position: relative;
+    margin-top: 20px;
+}
+
+.about-us-section .image-container i{
+    position: absolute;
+    z-index: 1;
+    color: #9792E4;
+    top: 0;
+    left: 160px;
+}
+
+.about-us-section .purple-button{
+    color: white;
+    font-size: 0.8em;
+}
+
+section.about-us-section .col.about-us-text-content{
+    width: 100%;
+}
 
 /**************************
     FOOTER
@@ -400,6 +480,14 @@ footer div{
     .testimonial-section .image-caption{
         width: 70%;
         text-align: left;
+    }
+
+    section.about-us-section .col.about-us-text-content{
+        width: 50%;
+    }
+
+    section.about-us-section .col .image-content{
+        width: 50%;
     }
 
 }
@@ -494,6 +582,14 @@ footer div{
 
     #special-card{
         max-height: 80%;
+    }
+
+    section.about-us-section .col.about-us-text-content{
+        width: 70%;
+    }
+
+    section.about-us-section .col .image-content{
+        width: 20%;
     }
 
 }
