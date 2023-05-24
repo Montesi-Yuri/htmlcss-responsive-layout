@@ -92,6 +92,7 @@ header{
     width: 100%;
     padding: 15px 0px;
     color: white;
+    z-index: 1;
 }
 
 header .row{
@@ -178,16 +179,46 @@ header a{
 /* PLANNING SECTION */
 
 .planning-section{
-    background-color: #BCB5EE;
+    background-color: #9792E4;
+    padding: 40px 0px;
+}
 
+.planning-section .row{
+    flex-wrap: wrap;
+}
+
+.planning-section .col h3,p,a{
+    margin: 20px 10px;
+}
+
+.planning-section h3{
+    font-size: 1.5em;
+}
+
+.planning-section .row:first-child{
+    color: white;
+}
+
+.planning-section .col:first-child h3{
+    font-size: 1.7em;
+    padding: 30px 0px;
 }
 
 #special-card{
     background-color: #FFFFFF;
     color: black;
-    border-radius: 1em;
-    padding: 10px 10px;
+    border-radius: 2em;
+    padding: 35px 20px;
     text-align: center;
+}
+
+#special-card p{
+    font-style: italic;
+}
+
+#special-card .purple-button{
+    display: inline-block;
+    color: black;
 }
 
 
@@ -263,9 +294,15 @@ footer div{
 
 @media screen and (min-width: 768px) {
 
+
+    /* GENERAL */
+
     .container{
         max-width: 992px;
     }
+
+
+    /* MAIN */
 
     .icon-section .container > .row{
         justify-content: space-between;
@@ -306,17 +343,47 @@ footer div{
 
 @media screen and (min-width: 992px) {
 
+
+    /* GENERAL */
+
     .container{
         max-width: 1140px;
     }
+
+
+    /* MAIN */
 
     .icon-section .row .big-col{
         flex-wrap: wrap;
     }
 
-    .planning-section .col{
-        width: 50%;
+    .planning-section .row{
         align-items: flex-end;
+        justify-content: center;
+    }
+
+    .planning-section .col{
+        width: 40%;
+        margin: 40px 0px;
+    }
+
+    .planning-section .col:first-child img{
+        margin-bottom: 40px;
+    }
+
+    .planning-section #special-card{
+        width: 40%;
+        margin-left: 50px;
+        position: relative;
+    }
+
+    .planning-section #special-card img{
+        width: 60%;
+        position: relative;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%);
+
     }
     
     .benefits-section .row .col{
@@ -357,6 +424,10 @@ footer div{
         width: 80%;
         margin-left: 20%;
         margin-bottom: 0;
+    }
+
+    #special-card{
+        max-height: 80%;
     }
 
 }
